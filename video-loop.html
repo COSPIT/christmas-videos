@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Looping Video</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #000;
+      overflow: hidden;
+    }
+    video {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover; /* fills the screen */
+    }
+  </style>
+</head>
+<body>
+  <video autoplay muted loop playsinline>
+    <source src="https://cdn.pixabay.com/video/2024/12/15/246688_large.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</body>
+</html>
